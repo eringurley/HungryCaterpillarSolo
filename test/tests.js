@@ -4,14 +4,14 @@ const test = QUnit.test;
 test('Test adding a sushi segment', function(assert) {
     //Arrange
     // Set up your parameters and expectations
-    const sushiType = 'gimbap';
+    const sushiName = 'gimbap';
     //placeholder for the section that caterpillar lives in
     const div = document.createElement('div');
     const expected = '<span class="part sushi"></span>';
 
     //Act 
     // Call the function you're testing and set the result to a const
-    const result = feedSushis(sushiType, div);
+    const result = feedSushis(sushiName, div);
     
     //Assert
     assert.equal(result, expected);
