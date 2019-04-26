@@ -8,4 +8,4 @@ for(let i = 0; i < sushiButtons.length; i++) {
     sushiButton.addEventListener('click', () => {
         feedSushis(sushiButton.value, sushi);
     });
-}
+} 
