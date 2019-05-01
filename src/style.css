@@ -1,11 +1,12 @@
-body {
-    font-family:'Permanent Marker';
+
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');body {
+    font-family: 'ZCOOL KuaiLe', cursive;
     text-align: center;
-    background-color: rgba(30, 236, 106, 0.954);
+    background-color: rgba(93, 223, 240, 0.954);
 }
 #girl {
     text-align: center;
-    margin-right: -10px;
+    margin-right: -40px;
 }
 .face {
     margin-right: -150px;
@@ -26,7 +27,7 @@ body {
 }
 
 .gimbap {
-    background-color: red;
+    background-color: rgb(9, 111, 17);
 }
 
 .roe {
@@ -34,11 +35,11 @@ body {
 }
 
 .salshimi {
-    background-color: orange;
+    background-color: rgb(247, 119, 7);
 }
 .salmon {
-    background-color: blue;
+    background-color: rgb(100, 211, 63);
 }
 .tuna{
-    background-color: rgb(177, 2, 2);
+    background-color: rgb(237, 66, 66);
 }
