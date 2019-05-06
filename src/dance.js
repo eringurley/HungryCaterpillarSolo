@@ -5,4 +5,4 @@ function danceSushi(sushiName, parentElement) {
     parentElement.appendChild(span);
     return parentElement.innerHTML;
 }
-export default danceSushis;
+export default danceSushi;
